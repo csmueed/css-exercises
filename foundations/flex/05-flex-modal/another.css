@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,42 +69,22 @@ button.cancel {
 }
 
 .modal {
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-
+    display: flex;
+    padding: 16px;
+    gap: 16px;
 }
-.container {
-  display: flex;
-  flex-direction: column;
+.icon {
+    flex-shrink: 0;
 }
 .header {
   display: flex;
-  /* flex-direction: row; */
-  /* border: 3px solid; */
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
-  padding-bottom: 10px;
-  font-size: large;
- font-weight: bolder;
-  
+   align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
-.icon {
-  flex-shrink: 0;
-  margin: 5px 15px 15px 1px;
+.text {
+  margin-bottom: 16px;
 }
-.close-button {
-  flex-shrink: 0;
-  justify-content: flex-end;
-  align-items: flex-end;
-  
-}
-
-.own {
-  display: flex;
-  padding: 5px;
-  margin-top: 10px;
-}
-
